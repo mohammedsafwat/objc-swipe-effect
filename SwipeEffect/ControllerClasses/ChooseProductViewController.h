@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SwipeToChoose.h"
 
-@interface ViewController : UIViewController
-
+@interface ChooseProductViewController : UIViewController <SwipeToChooseDelegate>
 
 @end
 

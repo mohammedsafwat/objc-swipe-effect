@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3ACEEF6B1B52910D00CFB3DD /* SwipeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEEF6A1B52910D00CFB3DD /* SwipeOptions.m */; };
+		3ACEEF6E1B52918800CFB3DD /* PanState.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEEF6D1B52918800CFB3DD /* PanState.m */; };
+		3ACEEF711B52920800CFB3DD /* Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEEF701B52920800CFB3DD /* Geometry.m */; };
+		3ACEEF741B52935700CFB3DD /* SwipeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEEF731B52935700CFB3DD /* SwipeResult.m */; };
+		3ACEEF7B1B52969C00CFB3DD /* SwipeToChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEEF7A1B52969C00CFB3DD /* SwipeToChooseView.m */; };
+		3ACEEF7E1B52991700CFB3DD /* SwipeToChooseViewOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEEF7D1B52991700CFB3DD /* SwipeToChooseViewOptions.m */; };
+		3ACEEF811B5299F400CFB3DD /* ViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEEF801B5299F400CFB3DD /* ViewState.m */; };
+		3ACEEF841B529A3400CFB3DD /* UIView+SwipeToChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACEEF831B529A3400CFB3DD /* UIView+SwipeToChoose.m */; };
+		3AD186AC1B4E9BED00345999 /* ChooseProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD186AB1B4E9BED00345999 /* ChooseProductViewController.m */; };
+		3AD186AF1B4E9C1000345999 /* ChooseProductView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD186AE1B4E9C1000345999 /* ChooseProductView.m */; };
 		3AE5A8401B462A9E00A2902A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE5A83F1B462A9E00A2902A /* main.m */; };
 		3AE5A8431B462A9E00A2902A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE5A8421B462A9E00A2902A /* AppDelegate.m */; };
-		3AE5A8461B462A9E00A2902A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE5A8451B462A9E00A2902A /* ViewController.m */; };
 		3AE5A8491B462A9E00A2902A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE5A8471B462A9E00A2902A /* Main.storyboard */; };
 		3AE5A84B1B462A9E00A2902A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE5A84A1B462A9E00A2902A /* Images.xcassets */; };
 		3AE5A84E1B462A9E00A2902A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE5A84C1B462A9E00A2902A /* LaunchScreen.xib */; };
 		3AE5A85A1B462A9E00A2902A /* SwipeEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE5A8591B462A9E00A2902A /* SwipeEffectTests.m */; };
+		3AE5A8661B46E7ED00A2902A /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE5A8651B46E7ED00A2902A /* Product.m */; };
+		CA1597FFE1FF9E658E76EEF7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF081FA510918D1EC6AB949 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +38,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		056274C272E531B8C8D6A106 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3ACEEF681B52908500CFB3DD /* SwipeDirection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SwipeDirection.h; path = ModelClasses/SwipeDirection.h; sourceTree = "<group>"; };
+		3ACEEF691B52910D00CFB3DD /* SwipeOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwipeOptions.h; path = ModelClasses/SwipeOptions.h; sourceTree = "<group>"; };
+		3ACEEF6A1B52910D00CFB3DD /* SwipeOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwipeOptions.m; path = ModelClasses/SwipeOptions.m; sourceTree = "<group>"; };
+		3ACEEF6C1B52918800CFB3DD /* PanState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PanState.h; path = ModelClasses/PanState.h; sourceTree = "<group>"; };
+		3ACEEF6D1B52918800CFB3DD /* PanState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PanState.m; path = ModelClasses/PanState.m; sourceTree = "<group>"; };
+		3ACEEF6F1B52920800CFB3DD /* Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Geometry.h; path = ModelClasses/Geometry.h; sourceTree = "<group>"; };
+		3ACEEF701B52920800CFB3DD /* Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Geometry.m; path = ModelClasses/Geometry.m; sourceTree = "<group>"; };
+		3ACEEF721B52935700CFB3DD /* SwipeResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwipeResult.h; path = ModelClasses/SwipeResult.h; sourceTree = "<group>"; };
+		3ACEEF731B52935700CFB3DD /* SwipeResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwipeResult.m; path = ModelClasses/SwipeResult.m; sourceTree = "<group>"; };
+		3ACEEF751B52941D00CFB3DD /* SwipeToChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwipeToChoose.h; path = ModelClasses/SwipeToChoose.h; sourceTree = "<group>"; };
+		3ACEEF781B52949100CFB3DD /* SwipeToChooseDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SwipeToChooseDelegate.h; path = ModelClasses/SwipeToChooseDelegate.h; sourceTree = "<group>"; };
+		3ACEEF791B52969C00CFB3DD /* SwipeToChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwipeToChooseView.h; path = ViewClasses/SwipeToChooseView.h; sourceTree = "<group>"; };
+		3ACEEF7A1B52969C00CFB3DD /* SwipeToChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwipeToChooseView.m; path = ViewClasses/SwipeToChooseView.m; sourceTree = "<group>"; };
+		3ACEEF7C1B52991700CFB3DD /* SwipeToChooseViewOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwipeToChooseViewOptions.h; path = ModelClasses/SwipeToChooseViewOptions.h; sourceTree = "<group>"; };
+		3ACEEF7D1B52991700CFB3DD /* SwipeToChooseViewOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwipeToChooseViewOptions.m; path = ModelClasses/SwipeToChooseViewOptions.m; sourceTree = "<group>"; };
+		3ACEEF7F1B5299F400CFB3DD /* ViewState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewState.h; path = ModelClasses/ViewState.h; sourceTree = "<group>"; };
+		3ACEEF801B5299F400CFB3DD /* ViewState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewState.m; path = ModelClasses/ViewState.m; sourceTree = "<group>"; };
+		3ACEEF821B529A3400CFB3DD /* UIView+SwipeToChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+SwipeToChoose.h"; path = "ModelClasses/UIView+SwipeToChoose.h"; sourceTree = "<group>"; };
+		3ACEEF831B529A3400CFB3DD /* UIView+SwipeToChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+SwipeToChoose.m"; path = "ModelClasses/UIView+SwipeToChoose.m"; sourceTree = "<group>"; };
+		3AD186AA1B4E9BED00345999 /* ChooseProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChooseProductViewController.h; path = ControllerClasses/ChooseProductViewController.h; sourceTree = "<group>"; };
+		3AD186AB1B4E9BED00345999 /* ChooseProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChooseProductViewController.m; path = ControllerClasses/ChooseProductViewController.m; sourceTree = "<group>"; };
+		3AD186AD1B4E9C1000345999 /* ChooseProductView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChooseProductView.h; path = ViewClasses/ChooseProductView.h; sourceTree = "<group>"; };
+		3AD186AE1B4E9C1000345999 /* ChooseProductView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChooseProductView.m; path = ViewClasses/ChooseProductView.m; sourceTree = "<group>"; };
 		3AE5A83A1B462A9E00A2902A /* SwipeEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE5A83E1B462A9E00A2902A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AE5A83F1B462A9E00A2902A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3AE5A8411B462A9E00A2902A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3AE5A8421B462A9E00A2902A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3AE5A8441B462A9E00A2902A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3AE5A8451B462A9E00A2902A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3AE5A8481B462A9E00A2902A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AE5A84A1B462A9E00A2902A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3AE5A84D1B462A9E00A2902A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3AE5A8531B462A9E00A2902A /* SwipeEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE5A8581B462A9E00A2902A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AE5A8591B462A9E00A2902A /* SwipeEffectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeEffectTests.m; sourceTree = "<group>"; };
+		3AE5A8641B46E7ED00A2902A /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Product.h; path = ModelClasses/Product.h; sourceTree = "<group>"; };
+		3AE5A8651B46E7ED00A2902A /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Product.m; path = ModelClasses/Product.m; sourceTree = "<group>"; };
+		3CECACC386E2EE499D10570B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3DF081FA510918D1EC6AB949 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA1597FFE1FF9E658E76EEF7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +98,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3ACEEF671B52906800CFB3DD /* SwipeEffectClasses */ = {
+			isa = PBXGroup;
+			children = (
+				3ACEEF6F1B52920800CFB3DD /* Geometry.h */,
+				3ACEEF701B52920800CFB3DD /* Geometry.m */,
+				3ACEEF6C1B52918800CFB3DD /* PanState.h */,
+				3ACEEF6D1B52918800CFB3DD /* PanState.m */,
+				3ACEEF681B52908500CFB3DD /* SwipeDirection.h */,
+				3ACEEF691B52910D00CFB3DD /* SwipeOptions.h */,
+				3ACEEF6A1B52910D00CFB3DD /* SwipeOptions.m */,
+				3ACEEF721B52935700CFB3DD /* SwipeResult.h */,
+				3ACEEF731B52935700CFB3DD /* SwipeResult.m */,
+				3ACEEF751B52941D00CFB3DD /* SwipeToChoose.h */,
+				3ACEEF781B52949100CFB3DD /* SwipeToChooseDelegate.h */,
+				3ACEEF791B52969C00CFB3DD /* SwipeToChooseView.h */,
+				3ACEEF7A1B52969C00CFB3DD /* SwipeToChooseView.m */,
+				3ACEEF7C1B52991700CFB3DD /* SwipeToChooseViewOptions.h */,
+				3ACEEF7D1B52991700CFB3DD /* SwipeToChooseViewOptions.m */,
+				3ACEEF7F1B5299F400CFB3DD /* ViewState.h */,
+				3ACEEF801B5299F400CFB3DD /* ViewState.m */,
+				3ACEEF821B529A3400CFB3DD /* UIView+SwipeToChoose.h */,
+				3ACEEF831B529A3400CFB3DD /* UIView+SwipeToChoose.m */,
+			);
+			name = SwipeEffectClasses;
+			sourceTree = "<group>";
+		};
+		3AD186A61B4E9BC100345999 /* ControllerClasses */ = {
+			isa = PBXGroup;
+			children = (
+				3AD186AA1B4E9BED00345999 /* ChooseProductViewController.h */,
+				3AD186AB1B4E9BED00345999 /* ChooseProductViewController.m */,
+			);
+			name = ControllerClasses;
+			sourceTree = "<group>";
+		};
 		3AE5A8311B462A9E00A2902A = {
 			isa = PBXGroup;
 			children = (
 				3AE5A83C1B462A9E00A2902A /* SwipeEffect */,
 				3AE5A8561B462A9E00A2902A /* SwipeEffectTests */,
 				3AE5A83B1B462A9E00A2902A /* Products */,
+				60A0AE03B2DF2BC5E91A560F /* Pods */,
+				E0A124AA8DAB9722044FDD8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +156,11 @@
 		3AE5A83C1B462A9E00A2902A /* SwipeEffect */ = {
 			isa = PBXGroup;
 			children = (
+				3AD186A61B4E9BC100345999 /* ControllerClasses */,
+				3AE5A8671B470C8E00A2902A /* ViewClasses */,
+				3AE5A8631B46E7CB00A2902A /* ModelClasses */,
 				3AE5A8411B462A9E00A2902A /* AppDelegate.h */,
 				3AE5A8421B462A9E00A2902A /* AppDelegate.m */,
-				3AE5A8441B462A9E00A2902A /* ViewController.h */,
-				3AE5A8451B462A9E00A2902A /* ViewController.m */,
 				3AE5A8471B462A9E00A2902A /* Main.storyboard */,
 				3AE5A84A1B462A9E00A2902A /* Images.xcassets */,
 				3AE5A84C1B462A9E00A2902A /* LaunchScreen.xib */,
@@ -119,6 +195,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3AE5A8631B46E7CB00A2902A /* ModelClasses */ = {
+			isa = PBXGroup;
+			children = (
+				3ACEEF671B52906800CFB3DD /* SwipeEffectClasses */,
+				3AE5A8641B46E7ED00A2902A /* Product.h */,
+				3AE5A8651B46E7ED00A2902A /* Product.m */,
+			);
+			name = ModelClasses;
+			sourceTree = "<group>";
+		};
+		3AE5A8671B470C8E00A2902A /* ViewClasses */ = {
+			isa = PBXGroup;
+			children = (
+				3AD186AD1B4E9C1000345999 /* ChooseProductView.h */,
+				3AD186AE1B4E9C1000345999 /* ChooseProductView.m */,
+			);
+			name = ViewClasses;
+			sourceTree = "<group>";
+		};
+		60A0AE03B2DF2BC5E91A560F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				056274C272E531B8C8D6A106 /* Pods.debug.xcconfig */,
+				3CECACC386E2EE499D10570B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E0A124AA8DAB9722044FDD8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DF081FA510918D1EC6AB949 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AE5A85D1B462A9E00A2902A /* Build configuration list for PBXNativeTarget "SwipeEffect" */;
 			buildPhases = (
+				8D544B84D6A250F9A944842F /* Check Pods Manifest.lock */,
 				3AE5A8361B462A9E00A2902A /* Sources */,
 				3AE5A8371B462A9E00A2902A /* Frameworks */,
 				3AE5A8381B462A9E00A2902A /* Resources */,
+				3FB60F9F770DB163B0DA8278 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +282,7 @@
 				TargetAttributes = {
 					3AE5A8391B462A9E00A2902A = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 5M8KATGLDP;
 					};
 					3AE5A8521B462A9E00A2902A = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -214,14 +329,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3FB60F9F770DB163B0DA8278 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D544B84D6A250F9A944842F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3AE5A8361B462A9E00A2902A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AE5A8461B462A9E00A2902A /* ViewController.m in Sources */,
+				3AD186AF1B4E9C1000345999 /* ChooseProductView.m in Sources */,
+				3ACEEF711B52920800CFB3DD /* Geometry.m in Sources */,
+				3ACEEF741B52935700CFB3DD /* SwipeResult.m in Sources */,
+				3ACEEF7B1B52969C00CFB3DD /* SwipeToChooseView.m in Sources */,
+				3AE5A8661B46E7ED00A2902A /* Product.m in Sources */,
+				3ACEEF6E1B52918800CFB3DD /* PanState.m in Sources */,
+				3ACEEF841B529A3400CFB3DD /* UIView+SwipeToChoose.m in Sources */,
+				3ACEEF811B5299F400CFB3DD /* ViewState.m in Sources */,
+				3ACEEF7E1B52991700CFB3DD /* SwipeToChooseViewOptions.m in Sources */,
 				3AE5A8431B462A9E00A2902A /* AppDelegate.m in Sources */,
+				3AD186AC1B4E9BED00345999 /* ChooseProductViewController.m in Sources */,
 				3AE5A8401B462A9E00A2902A /* main.m in Sources */,
+				3ACEEF6B1B52910D00CFB3DD /* SwipeOptions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +503,12 @@
 		};
 		3AE5A85E1B462A9E00A2902A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 056274C272E531B8C8D6A106 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SwipeEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,11 +516,16 @@
 		};
 		3AE5A85F1B462A9E00A2902A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CECACC386E2EE499D10570B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ramez  Mohamed (5M8KATGLDP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ramez  Mohamed (5M8KATGLDP)";
 				INFOPLIST_FILE = SwipeEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4927261b-cd92-4dcf-bcf1-0cf554bbf709";
 			};
 			name = Release;
 		};
@@ -416,6 +582,7 @@
 				3AE5A85F1B462A9E00A2902A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AE5A8601B462A9E00A2902A /* Build configuration list for PBXNativeTarget "SwipeEffectTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +591,7 @@
 				3AE5A8621B462A9E00A2902A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
